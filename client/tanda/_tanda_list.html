@@ -1,0 +1,10 @@
+<template name="tanda_list">
+    <h1>Tandas</h1>
+
+    {{#each tandas}}
+        <div>Nombre: {{name}}</div>
+        <div>Descripcion: {{description}}</div>
+        <div>Monto: {{amount}}</div>
+        <div>Peridiocidad: {{periodicity}}</div><br>
+    {{/each}}
+</template>
