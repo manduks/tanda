@@ -7,4 +7,5 @@ Router.map(function() {
         template: 'home'
     });
     this.route('about');
+    this.route('tandas');
 });

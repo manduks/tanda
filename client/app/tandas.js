@@ -5,12 +5,12 @@ Template.tanda_list.tandas = function () {
     return Tandas.find({}).fetch();
 };
 
-Template.tanda.events({
+Template.add_tanda.events({
     'click #submitTanda': function(e, tpl) {
         e.preventDefault();
         var obj = utils.getFormValues('form_tandas'),
             form = $('#form_tandas');
-
+        console.log(obj);
         Tandas.insert({
             name: obj.name,
             description: obj.description,
