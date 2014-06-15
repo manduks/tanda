@@ -8,7 +8,8 @@ Router.map(function() {
     });
     this.route('about');
     this.route('tandas');
-
+    this.route('tanda-show');
+    this.route('tanda-invitation');
     this.route('crear', {
         path: '/crear',
         template: 'add_tanda',
