@@ -1,7 +1,14 @@
 <head>
   <title>Tanda Facil</title>
-  	<script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.0/js/conekta.js"></script>
+  <!-- <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.0/js/conekta.js"></script> -->
 
 </head>
 <body>
 </body>
+
+<template name="layout">
+  {{>header}}
+  <div id="content">
+    {{> yield}}
+  </div>
+</template>

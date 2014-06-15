@@ -1,5 +1,5 @@
  Meteor.startup(function() {
-     Conekta.setPublishableKey('key_MxhSqdJdtsmBy64o');
+     //Conekta.setPublishableKey('key_MxhSqdJdtsmBy64o');
  });
  Template.tarjeta.events({
      'click #SubmitCC': function() {
