@@ -6,10 +6,9 @@
 <template name="home_view">
     <button class="btn" id="btn-user-data">Get User Data</button>
     <div id="fb-root">
-        <pre id="result"></pre>
-        {{#each friends}}
-        <p>dgdgd</p>
-        {{/each}}
     </div>
+    {{#each amigos}}
+    <div>{{name}}<img src="{{picture}}"></div>
+    {{/each}}
 
 </template>

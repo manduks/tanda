@@ -8,6 +8,7 @@ Router.map(function() {
     });
     this.route('about');
     this.route('tandas');
+
     this.route('crear', {
         path: '/crear',
         template: 'add_tanda',
@@ -19,5 +20,7 @@ Router.map(function() {
     });
 });
 
+Meteor.startup(function() {
+    Meteor.call('removeAllAmigos');
 
-//para enviar mail
+});
