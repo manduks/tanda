@@ -1,15 +1,36 @@
 <template name="add_tanda">
-    <h1>Agregar Tanda</h1>
-    <form id="form_tandas">
-        <input type="text" name="name" placeholder="Nombre">
-        <input type="text" name="description" placeholder="Descripción">
-        <select name="periodicity">
-            <option value ="Semanal">Semanal</option>
-            <option value ="Quincenal" selected>Quincenal</option>
-            <option value ="Mensual">Mensual</option>
-        </select>
-        <input type="text" name="amount" placeholder="Monto">
-        <input type="text" name="participants" placeholder="Participantes">
-        <input type="submit" value="Guardar" id="submitTanda">
-    </form>
+  <div class="wrapper">
+    <div class="col-12">
+      <div class="col col-12">
+        <div class="col-inner">
+          Crear Tanda
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="cols-12">
+      <div class="col col-7">
+        <div class="col-inner">
+          <form id="form_tandas">
+              <input type="text" name="name" placeholder="Nombre">
+              <input type="text" name="description" placeholder="Descripción">
+              <select name="periodicity">
+                  <option value ="Semanal">Semanal</option>
+                  <option value ="Quincenal" selected>Quincenal</option>
+                  <option value ="Mensual">Mensual</option>
+              </select>
+              <input type="text" name="amount" placeholder="Monto">
+              <input type="text" name="participants" placeholder="Participantes">
+              <input type="submit" value="Guardar" id="submitTanda">
+          </form>
+        </div>
+      </div>
+      <div class="col col-4">
+        <div class="col-inner">
+          Tips:
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
