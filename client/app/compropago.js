@@ -3,7 +3,7 @@
  */
 Template.compropago.events({
     'click #SubmitCompropago': function() {
-
+        
         var obj = {
                 "product_price": 100,
                 "product_name": 'Tanda',
@@ -17,7 +17,7 @@ Template.compropago.events({
             };
 
         Meteor.call("compropagoCharge", obj, function(error, result) {
-            var instructions;
+            console.log(arguments);
             if (error) {
                 alert('Error Al conectar')
             } else {

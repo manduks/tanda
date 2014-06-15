@@ -1,17 +1,19 @@
 <head>
   <title>Tanda Facil</title>
-  	<script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.0/js/conekta.js"></script>
+  <!-- <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.0/js/conekta.js"></script> -->
 
 </head>
-<body>  
-<h1>Compropago</h1>
-	{{>compropago}}
-<h1>Tarjeta</h1>
-	{{>tarjeta}}
-
+<body>
 <h1>Agregar Tanda</h1>
 {{>tanda}}
 
 <h1>Tandas</h1>
 {{>tanda_list}}
 </body>
+
+<template name="layout">
+  {{>header}}
+  <div id="content">
+    {{> yield}}
+  </div>
+</template>
