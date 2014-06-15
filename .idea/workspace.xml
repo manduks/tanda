@@ -5,10 +5,10 @@
     <ignored path="tanda.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402849626053" ignored="false" />
-    <file path="/_home.html" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402852669808" ignored="false" />
+    <file path="/_home.html" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402852999921" ignored="false" />
     <file path="/_fb_connect.html" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402825504937" ignored="false" />
     <file path="/_header.html" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402804207199" ignored="false" />
-    <file path="/fb_connect.js" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402852203767" ignored="false" />
+    <file path="/fb_connect.js" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402854752397" ignored="false" />
     <file path="/server.js" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402852163646" ignored="false" />
     <file path="/config.js" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402805205489" ignored="false" />
     <file path="/facebook.js" changelist="b3d64442-422a-44bb-bdca-644bb6c99d4f" time="1402819736285" ignored="false" />
@@ -34,19 +34,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.5206612">
+            <state line="21" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fb_connect.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fb_connect.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/fb_connect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+            <state line="60" column="19" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.8226351">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
       <file leaf-file-name="_home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.25">
+            <state line="10" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="conekta.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/conekta.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="91" vertical-scroll-proportion="0.0">
+            <state line="16" column="26" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,10 +145,10 @@
         <option value="$PROJECT_DIR$/client/assets/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/collections/Friends.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
-        <option value="$PROJECT_DIR$/client/app/fb_connect.js" />
-        <option value="$PROJECT_DIR$/client/views/_home.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/app.js" />
+        <option value="$PROJECT_DIR$/client/views/_home.html" />
+        <option value="$PROJECT_DIR$/client/app/fb_connect.js" />
       </list>
     </option>
   </component>
@@ -211,6 +211,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -226,6 +240,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,37 +443,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/facebook.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/tandas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="104" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/conekta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/fb_connect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/Friends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -435,23 +471,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/_home.html">
+    <entry file="file://$PROJECT_DIR$/client/app/conekta.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.25">
+        <state line="16" column="26" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/collections/Friends.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="2" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.5206612">
+        <state line="21" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/tandas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="104" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/fb_connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="19" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.8226351">
           <folding />
         </state>
       </provider>
