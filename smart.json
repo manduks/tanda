@@ -2,6 +2,7 @@
   "packages": {
     "sass": {},
     "iron-router": {},
-    "facebook-sdk": {}
+    "facebook-sdk": {},
+    "bourbon": {}
   }
 }
