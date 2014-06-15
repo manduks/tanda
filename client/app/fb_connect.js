@@ -41,8 +41,10 @@ Template.home.events({
 
                 data.forEach(function (item) {
                     var friend = {
+                        id: item.id,
                         name: item.name,
-                        picture: "http://graph.facebook.com/" + item.id + "/picture/?type=large"
+                        picture: "http://graph.facebook.com/" + item.id + "/picture/?type=large",
+                        email: 'armando@codetlan.com'
                     };
                     Amigos.insert(friend);
                 });
@@ -54,3 +56,13 @@ Template.home.events({
 Template.home_view.amigos = function () {
     return Amigos.find({}).fetch();
 };
+
+Template.home_view.events({
+    'click .selected': function () {
+        var amigo = Amigos.find({
+            _id: this._id
+        }).fetch();
+        console.log(amigo);
+    }
+
+});
