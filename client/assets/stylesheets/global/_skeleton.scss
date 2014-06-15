@@ -45,10 +45,35 @@ h6 {
   }
 }
 
+.avatar {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  display: block;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .header {
   padding: 20px 0;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+
+  .brand {
+    float: left;
+  }
+
+  .user {
+    float: right;
+
+    .user-name {
+      float: left;
+    }
+  }
 }
+

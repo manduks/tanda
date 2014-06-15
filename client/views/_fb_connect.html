@@ -4,10 +4,14 @@
 
 <template name="user_loggedIn">
     {{#if loggingIn}}
-    Logging in...
+      Logging in...
     {{else}}
-    <img style="height:32px; width: 32px;" src="{{currentUser.profile.picture}}"/>
-    {{currentUser.profile.name}}
-    <a href="#" id="logout">Logout</a>
+      <div class="user-name">
+        {{currentUser.profile.name}}
+        <a href="#" id="logout">Logout</a>
+      </div>
+      <span class="avatar">
+        <img src="{{currentUser.profile.picture}}"/>
+      </span>
     {{/if}}
 </template>
