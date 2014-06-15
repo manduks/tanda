@@ -7,10 +7,11 @@
 //Dependencies
 @import "packages/bourbon/bourbon";
 
-// Globals
+// // Globals
 @import "global/vars";
-@import "global/grid";
 @import "global/media-queries";
+@import "global/grid";
+
 @import "global/skeleton";
 @import "global/skin";
 

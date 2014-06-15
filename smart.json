@@ -1,8 +1,6 @@
 {
   "packages": {
     "sass": {},
-    "iron-router": {},
-    "scss": {},
-    "bourbon": {}
+    "iron-router": {}
   }
 }
