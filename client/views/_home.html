@@ -1,14 +1,28 @@
 <template name="home">
-    home
-    {{>home_view}}
+  {{>home_view}}
 </template>
 
 <template name="home_view">
+  <div class="hero-home">
+    <div class="wrapper">
+      <div class="cols-12">
+        <div class="col col-12">
+          <div class="col-inner">
+            <h1>Usa el poder colectivo de las Tandas para comprar lo que deseas.</h1>
+            {{> fb_connect }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <button class="btn" id="btn-user-data">Get User Data</button>
     <div id="fb-root">
     </div>
+<<<<<<< HEAD
+=======
     {{#each amigos}}
     <div>{{name}}<img src="{{picture}}"></div>
     {{/each}}
 
+>>>>>>> a4254869b75e57cbbc717293919485fca5d919b3
 </template>
