@@ -17,7 +17,10 @@ Template.fb_connect.events({
                 window.location = '/';
             }
         });
-    },
+    }
+});
+
+Template.user_loggedIn.events({
     "click #logout": function (e, tmpl) {
         Meteor.logout(
             function (err) {
@@ -28,7 +31,7 @@ Template.fb_connect.events({
                 }
             })
     }
-});
+})
 
 Template.home.events({
     'click #btn-user-data': function () {
