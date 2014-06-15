@@ -9,3 +9,6 @@ insecure
 sass
 jquery
 iron-router
+accounts-facebook
+accounts-ui-unstyled
+facebook-sdk

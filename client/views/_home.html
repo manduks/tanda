@@ -1,3 +1,15 @@
 <template name="home">
-	home
+    home
+    {{>home_view}}
+</template>
+
+<template name="home_view">
+    <button class="btn" id="btn-user-data">Get User Data</button>
+    <div id="fb-root">
+        <pre id="result"></pre>
+        {{#each friends}}
+        <p>dgdgd</p>
+        {{/each}}
+    </div>
+
 </template>

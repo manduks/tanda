@@ -1,0 +1,17 @@
+<template name="fb_connect">
+    {{#if currentUser}}
+    {{> user_loggedIn}}
+    {{else}}
+    <button id="loginFacebook">Login!</button>
+    {{/if}}
+</template>
+
+<template name="user_loggedIn">
+    {{#if loggingIn}}
+    Logging in...
+    {{else}}
+    <img style="height:32px; width: 32px;" src="{{currentUser.profile.picture}}"/>
+    {{currentUser.profile.name}}
+    <a href="#" id="logout">Logout</a>
+    {{/if}}
+</template>
