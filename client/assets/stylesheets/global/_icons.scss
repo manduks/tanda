@@ -1,0 +1,12 @@
+
+// Icons
+.i {
+  background: url('/images/pack.png') no-repeat;
+  vertical-align: middle;
+  @include inline-block;
+
+  &.contanda-logo { width: 111px; height: 17px; background-position: 0 0; }
+}
+
+
+
