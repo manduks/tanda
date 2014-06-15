@@ -1,7 +1,6 @@
-Conekta.setPublishableKey('key_MxhSqdJdtsmBy64o');
-/*
-	Eventos de la plantilla de compropago
- */
+ Meteor.startup(function() {
+ 	Conekta.setPublishableKey('key_MxhSqdJdtsmBy64o');
+ });
 Template.tarjeta.events({
     'click #SubmitCC': function() {
         obj = {
