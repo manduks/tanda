@@ -4,7 +4,8 @@
     "basePackages": {
       "sass": {},
       "iron-router": {},
-      "facebook-sdk": {}
+      "facebook-sdk": {},
+      "bourbon": {}
     },
     "packages": {
       "sass": {
@@ -21,6 +22,11 @@
         "git": "https://github.com/hugesuccess/facebook-sdk.git",
         "tag": "v0.0.44",
         "commit": "cb71b860085ec6453b61644b31f6351e7de2c1b0"
+      },
+      "bourbon": {
+        "git": "https://github.com/chicagogrooves/meteor-bourbon.git",
+        "tag": "v3.1.8.1",
+        "commit": "b55f0968fe7d4a2886898cd8e81394de066a3ae1"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

@@ -9,3 +9,18 @@ Accounts.onCreateUser(function(options, user){
     }
     return user;
 });
+
+
+Meteor.startup(function() {
+
+    return Meteor.methods({
+
+        removeAllAmigos: function() {
+
+            return Amigos.remove({});
+
+        }
+
+    });
+
+});

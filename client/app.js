@@ -9,3 +9,7 @@ Router.map(function() {
     this.route('about');
     this.route('tandas');
 });
+
+Meteor.startup(function() {
+    Meteor.call('removeAllAmigos');
+});
