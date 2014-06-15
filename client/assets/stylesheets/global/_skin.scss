@@ -8,6 +8,10 @@ body {
   font-family: $font;
 }
 
+a {
+  color: $primary-color;
+}
+
 .avatar {
   border-radius: 50px;
 }
@@ -22,4 +26,8 @@ body {
       font-size: 11px;
     }
   }
+}
+
+.footer {
+  border-shadow: 0 -1px 0 rgba(0,0,0,.2);
 }
