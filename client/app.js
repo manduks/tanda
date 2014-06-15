@@ -22,5 +22,4 @@ Router.map(function() {
 
 Meteor.startup(function() {
     Meteor.call('removeAllAmigos');
-
 });

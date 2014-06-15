@@ -14,7 +14,7 @@ Template.fb_connect.events({
             if (error) {
                 console.log(error);
             } else {
-                window.location = '/';
+                Router.go('crear');
             }
         });
     }
@@ -27,7 +27,7 @@ Template.user_loggedIn.events({
                 if (err) {
                     throw err;
                 } else {
-                    window.location.href = "/";
+                    Router.go('home');
                 }
             })
     }

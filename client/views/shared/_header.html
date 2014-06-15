@@ -10,7 +10,9 @@
               </a>
             </div>
             <div class="user">
-              {{>user_loggedIn}}
+              {{#if currentUser}}            
+                {{>user_loggedIn}}
+              {{/if}}
             </div>
           </div>
         </div>
