@@ -1,0 +1,10 @@
+
+.hero-home {
+  text-align: center;
+  color: #fff;
+  @include linear-gradient(50deg, #23cbd5, #23c6d5);
+  
+  h1 {
+    font-size: 52px;
+  }
+}

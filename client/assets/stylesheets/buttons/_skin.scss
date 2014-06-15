@@ -1,0 +1,38 @@
+
+/* Buttons Skin
+----------------------------------*/
+.btn {
+  border-radius: $radius;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 33px;
+
+  &.btn-small {
+    line-height: 19px;
+    font-size: 12px;
+  }
+
+  &.btn-medium {
+    line-height: 38px;
+  }
+
+  &.btn-large {
+    font-size: 15px;
+  }
+
+  &.hard-border-btn {
+    border: 0;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.3);
+  }
+
+  &.btn-full {
+    text-align: center;
+  }
+}
+
+.btn-outline-white {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
